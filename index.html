@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form  class="form">
+        <div class="container">
+  <div class="in"><label for="firstname" class="feild"> First Name <span class="star">*</span></label> <br> <input type="text" class="input firstnamei"placeholder="John"></div>
+  <div class="in"><label for="lastname" class="feild"> Last Name<span class="star">*</span></label> <br> <input type="text" class="input lastnamei"placeholder="Doe"></div>
+ <div class="in"><label for="email" class="feild"> Mail<span class="star">*</span></label><br> <input type="email" class="input emaili" placeholder="abc@xyz.com"></div>
+  <div class="in"><label for="Phone" class="feild">Phone </label><br> <input type="tel" class="input phonei" pattern="[0-9]{10}"  placeholder="012 345 67 89" maxlength="10"></div>
+  </div>
+  <div class="website" ><strong>What the of website do you need?</strong> <br>
+ <input type="radio" class="w1 web" value="Web Design" name="websitei">Web design
+ <input type="radio" class="w2 web" value="Web Development" name="websitei">Web Development
+ <input type="radio" class="w3 web" value="Logo Design" name="websitei">Logo design
+ <input type="radio" class="w4 web" value="Other" name="websitei">Other</div>
+ <div class="message feild in">Message
+ <input type="text" class="input messagei" placeholder="Write Your Message.."></div>
+ <input type="button" class="send" value="Send Message">
+</form>
+<div class="details"></div>
+<script src="main.js"></script>
+</body>
+</html>
