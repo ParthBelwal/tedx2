@@ -1,18 +1,23 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
 form{
     margin-top: 5%
 }
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: 0% 2%;
     gap: 10%;
     justify-items: center;
 }
 .website{
     font-size: 24px;
-    margin-left: 16%;
+    margin-left: 2%;
     margin-top: 5%;
 }
 .in{
+    width: 100%;
     transition: all 0.3s;
 }
 .in:hover{ 
@@ -57,6 +62,10 @@ input[type='radio']:checked:after {
     margin-left: 8%;
     margin-right: 1%;
 }
+.w1
+{
+    margin-left: 0%;
+}
 .feild{
     font-size: larger;
 }
@@ -66,22 +75,23 @@ input[type='radio']:checked:after {
     min-height: 30px;
     border:none;
     border-bottom:1px solid #ccc;
-    width:100%
+    width:95%;
 }
 .input:hover{
     cursor: pointer;
     border-bottom:2px solid rgb(81, 23, 134);
 }
 .message
-{
-    margin:5% 16%
+{ 
+    width: 95%;
+    margin:5% 2%;
 }
 .messagei{
     min-height: 45px;
 }
 .send{
     cursor: pointer;
-    margin:5% 16%;
+    margin:5% 2%;
     font-size: 30px;
     color: white;
     background-color: rgb(81, 23, 134);
@@ -91,9 +101,8 @@ input[type='radio']:checked:after {
 }
 .details{
     clear: both;
-    margin:5% 16%;
+    margin:5% 2%;
     font-size: 25px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 @media(max-width:800px)
 {
